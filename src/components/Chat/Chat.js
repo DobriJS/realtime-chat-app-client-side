@@ -18,6 +18,7 @@ const Chat = ({ location }) => {
   const [users, setUsers] = useState("");
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
+  const ENDPOINT = "https://realtime-chat-app-server-side.herokuapp.com/";
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
