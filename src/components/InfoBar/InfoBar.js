@@ -1,8 +1,9 @@
 import React from "react";
-import "./InfoBar.css";
 
 import closeIcon from "../../Icons/closeIcon.png";
 import onlineIcon from "../../Icons/onlineIcon.png";
+
+import "./InfoBar.css";
 
 const InfoBar = ({ room }) => (
   <div className="infoBar">
