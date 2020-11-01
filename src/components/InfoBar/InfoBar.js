@@ -3,7 +3,7 @@ import React from "react";
 import closeIcon from "../../Icons/closeIcon.png";
 import onlineIcon from "../../Icons/onlineIcon.png";
 
-import "./InfoBar.css";
+import "./infoBar.css";
 
 const InfoBar = ({ room }) => (
   <div className="infoBar">
